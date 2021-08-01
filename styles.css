@@ -3,7 +3,7 @@ body{
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
     background-repeat: no-repeat;
     min-height: 100vh;
-    overflow: hidden;
+    
 }
 
 h1 {
@@ -20,16 +20,22 @@ h1 {
     font-family: epicursive, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 25px;
+    font-size: 35px;
     color: rgb(0, 0, 0);
+    margin-top: -5px;
 }
 
 #cards-el, #sum-el {
     font-family: epicursive, sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 22px;
+    font-size: 25px;
+    margin-top: -10px;
     
+}
+
+.container{
+    margin-top: -60px;
 }
 
 .card {
@@ -41,7 +47,8 @@ h1 {
     background-repeat: repeat;
     text-align: center;
     border-radius: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
+    
 }
 
 .playing{
@@ -61,7 +68,7 @@ button{
     font-family: epicursive, sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-top: 25px;
+    margin-top: 10px;
     text-align: center;
     font-size: 25px;
 }
