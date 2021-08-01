@@ -3,7 +3,7 @@ body{
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
     background-repeat: no-repeat;
     min-height: 100vh;
-    overflow: hidden;
+    
 }
 
 h1 {
@@ -32,6 +32,10 @@ h1 {
     
 }
 
+.container{
+    margin-top: -60px;
+}
+
 .card {
     background-color: #f7f7f7;
     opacity: 100;
@@ -41,7 +45,8 @@ h1 {
     background-repeat: repeat;
     text-align: center;
     border-radius: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
+    
 }
 
 .playing{
